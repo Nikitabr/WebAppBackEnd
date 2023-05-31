@@ -1,0 +1,23 @@
+{
+  "App.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\nikit\\RiderProjects\\icd0021-21-22-s\\App.BLL",
+  "App.BLL.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\nikit\\RiderProjects\\icd0021-21-22-s\\App.BLL.DTO",
+  "App.Contracts.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\nikit\\RiderProjects\\icd0021-21-22-s\\App.Contracts.BLL",
+  "App.Contracts.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\nikit\\RiderProjects\\icd0021-21-22-s\\App.Contracts.DAL",
+  "App.DAL.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\nikit\\RiderProjects\\icd0021-21-22-s\\App.DAL.DTO",
+  "App.DAL.EF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\nikit\\RiderProjects\\icd0021-21-22-s\\App.DAL.EF",
+  "App.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\nikit\\RiderProjects\\icd0021-21-22-s\\App.Domain",
+  "App.Public, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\nikit\\RiderProjects\\icd0021-21-22-s\\App.Public",
+  "App.Public.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\nikit\\RiderProjects\\icd0021-21-22-s\\App.Public.DTO",
+  "App.Resources, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\nikit\\RiderProjects\\icd0021-21-22-s\\App.Resources",
+  "Base.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\nikit\\RiderProjects\\icd0021-21-22-s\\Base.BLL",
+  "Base.Contracts.Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\nikit\\RiderProjects\\icd0021-21-22-s\\Base.Contracts.Base",
+  "Base.Contracts.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\nikit\\RiderProjects\\icd0021-21-22-s\\Base.Contracts.BLL",
+  "Base.Contracts.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\nikit\\RiderProjects\\icd0021-21-22-s\\Base.Contracts.DAL",
+  "Base.Contracts.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\nikit\\RiderProjects\\icd0021-21-22-s\\Base.Contracts.Domain",
+  "Base.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\nikit\\RiderProjects\\icd0021-21-22-s\\Base.DAL",
+  "Base.DAL.EF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\nikit\\RiderProjects\\icd0021-21-22-s\\Base.DAL.EF",
+  "Base.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\nikit\\RiderProjects\\icd0021-21-22-s\\Base.Domain",
+  "Base.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\nikit\\RiderProjects\\icd0021-21-22-s\\Base.Extensions",
+  "Base.Resources, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\nikit\\RiderProjects\\icd0021-21-22-s\\Base.Resources",
+  "WebApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\nikit\\RiderProjects\\icd0021-21-22-s\\WebApp"
+}

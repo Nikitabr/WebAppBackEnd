@@ -1,0 +1,105 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Update="App.Domain\Country.resx">
+        <Generator>PublicResXFileCodeGenerator</Generator>
+        <LastGenOutput>Country.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="App.Domain\Pc.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Pc.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="App.Domain\Common.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Common.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="App.Domain\Invoice.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Invoice.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="App.Domain\Product.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Product.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="App.Domain\PoductType.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>PoductType.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="App.Domain\ServiceType.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>ServiceType.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="App.Domain\ShippingInfo.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>ShippingInfo.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="App.Domain\ShippingType.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>ShippingType.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="App.Domain\SpecificationType.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>SpecificationType.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="App.Domain\Country.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Country.resx</DependentUpon>
+      </Compile>
+      <Compile Update="App.Domain\Pc.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Pc.resx</DependentUpon>
+      </Compile>
+      <Compile Update="App.Domain\Common.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Common.resx</DependentUpon>
+      </Compile>
+      <Compile Update="App.Domain\Invoice.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Invoice.resx</DependentUpon>
+      </Compile>
+      <Compile Update="App.Domain\Product.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Product.resx</DependentUpon>
+      </Compile>
+      <Compile Update="App.Domain\PoductType.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>PoductType.resx</DependentUpon>
+      </Compile>
+      <Compile Update="App.Domain\ServiceType.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>ServiceType.resx</DependentUpon>
+      </Compile>
+      <Compile Update="App.Domain\ShippingInfo.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>ShippingInfo.resx</DependentUpon>
+      </Compile>
+      <Compile Update="App.Domain\ShippingType.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>ShippingType.resx</DependentUpon>
+      </Compile>
+      <Compile Update="App.Domain\SpecificationType.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Specification Type.resx</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
+</Project>

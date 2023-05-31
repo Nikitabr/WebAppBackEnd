@@ -1,0 +1,459 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApp</name>
+    </assembly>
+    <members>
+        <member name="M:WebApp.ApiControllers.CountriesController.GetCountries">
+            <summary>
+            Gets all countries from th rest backend
+            </summary>
+            <returns>All the countries</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.CountriesController.GetCountry(System.Guid)">
+            <summary>
+            Get country by Id from the rest backend
+            </summary>
+            <param name="id">Supply country Id</param>
+            <returns>Country by id</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.CountriesController.PutCountry(System.Guid,App.Public.DTO.v1.Country)">
+            <summary>
+            Insert new data to country by id, edit country in the rest backend
+            </summary>
+            <param name="id">Supply country id</param>
+            <param name="country">Supply country</param>
+            <returns>Updated country</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.CountriesController.PostCountry(App.Public.DTO.v1.Country)">
+            <summary>
+            Create new country in the rest backend
+            </summary>
+            <param name="country">Supply country</param>
+            <returns>New country</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.CountriesController.DeleteCountry(System.Guid)">
+            <summary>
+            Delete country by id from the rest backend
+            </summary>
+            <param name="id">Supply country id</param>
+            <returns>Nothing</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.FeedbacksController.GetFeedbacks">
+            <summary>
+            Get all feedbacks from the rest backend
+            </summary>
+            <returns>All feedbacks</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.FeedbacksController.GetFeedback(System.Guid)">
+            <summary>
+            Get feedback by id from the rest backend
+            </summary>
+            <param name="id">Supply feedback id</param>
+            <returns>Feedback by id</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.FeedbacksController.PutFeedback(System.Guid,App.Public.DTO.v1.Feedback)">
+            <summary>
+            Insert new data to feedback by id, edit feedback in the rest backend
+            </summary>
+            <param name="id">Supply feedback id</param>
+            <param name="feedback">Supply feedback</param>
+            <returns>Updated feedback</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.FeedbacksController.PostFeedback(App.Public.DTO.v1.Feedback)">
+            <summary>
+            Create new feedback in the rest backend
+            </summary>
+            <param name="feedback">Supply feedback</param>
+            <returns>New feedback</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.FeedbacksController.DeleteFeedback(System.Guid)">
+            <summary>
+            Delete feedback by id from the rest backend
+            </summary>
+            <param name="id">Supply feedback id</param>
+            <returns>Nothing</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.Identity.AccountController.GetUserById(System.Guid)">
+            <summary>
+            Gets user by id from backend
+            </summary>
+            <param name="id">Supply user id</param>
+            <returns>User by id</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.Identity.AccountController.LogIn(App.Public.DTO.v1.Identity.Login)">
+            <summary>
+            Login into the rest backend - generates JWT to be included in
+            Authorize: Brearer xyz
+            </summary>
+            <param name="loginData">Supply email and password</param>
+            <returns>JWT amd refresh token</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.Identity.AccountController.Register(App.Public.DTO.v1.Identity.Register)">
+            <summary>
+            Register into the rest backend - generates JWT to be included in
+            Authorize: Brearer xyz
+            </summary>
+            <param name="registrationData">Supply firstname, lastname, email and password</param>
+            <returns>JWT and refresh token</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.Identity.AccountController.RefreshToken(App.Public.DTO.v1.Identity.RefreshTokenModel)">
+            <summary>
+            Generates refreshed jwt and refresh token
+            Authorize: Bearer xyz
+            </summary>
+            <param name="refreshTokenModel">Supply jwt and and refresh token</param>
+            <returns>New token and refresh token and also user firstname and lastname</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.InvoicesController.GetInvoices">
+            <summary>
+            Gets all invoices from the rest backend
+            </summary>
+            <returns>All the invoices</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.InvoicesController.GetInvoice(System.Guid)">
+            <summary>
+            Get invoice by id from the rest backend
+            </summary>
+            <param name="id">Supply invoice id</param>
+            <returns>Invoice by id</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.InvoicesController.PutInvoice(System.Guid,App.Public.DTO.v1.Invoice)">
+            <summary>
+            Insert new data to invoice found by id, edit invoice in the rest backend 
+            </summary>
+            <param name="id">Supply invoice id</param>
+            <param name="invoice">Supply invoice</param>
+            <returns>Updated invoice</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.InvoicesController.PostInvoice(App.Public.DTO.v1.Invoice)">
+            <summary>
+            Create new invoice in the rest backend
+            </summary>
+            <param name="invoice">Supply invoice</param>
+            <returns>New invoice</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.InvoicesController.DeleteInvoice(System.Guid)">
+            <summary>
+            Delete invoice by id from the rest backend
+            </summary>
+            <param name="id">Supply invoice id</param>
+            <returns>Nothing</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.OrdersController.GetOrders">
+            <summary>
+            Gets all orders from the rest backend
+            </summary>
+            <returns>All orders</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.OrdersController.GetOrder(System.Guid)">
+            <summary>
+            Get order by id from the rest backend
+            </summary>
+            <param name="id">Supply order id</param>
+            <returns>Order by id</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.OrdersController.PutOrder(System.Guid,App.Public.DTO.v1.Order)">
+            <summary>
+            Insert new data to order by id, edit order in the rest backend
+            </summary>
+            <param name="id">Supply order id</param>
+            <param name="order">Supply order</param>
+            <returns>Updated order</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.OrdersController.PostOrder(App.Public.DTO.v1.Order)">
+            <summary>
+            Creates new order in the rest backend
+            </summary>
+            <param name="order">Supply order</param>
+            <returns>New order</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.OrdersController.DeleteOrder(System.Guid)">
+            <summary>
+            Delete order by id from the rest backend
+            </summary>
+            <param name="id">Supply order id</param>
+            <returns>Nothing</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.PaymentTypesController.GetPaymentTypes">
+            <summary>
+            Gets all payment types from the rest backend
+            </summary>
+            <returns>All payment types</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.PaymentTypesController.GetPaymentType(System.Guid)">
+            <summary>
+            Get payment type by id from the rest backend
+            </summary>
+            <param name="id">Supply payment type id</param>
+            <returns>Payment type by id</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.PaymentTypesController.PutPaymentType(System.Guid,App.Public.DTO.v1.PaymentType)">
+            <summary>
+            Insert new data to payment type by id, edit payment type in the rest backend
+            </summary>
+            <param name="id">Supply payment type id</param>
+            <param name="paymentType">Supply payment type</param>
+            <returns>Updated payment type by id</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.PaymentTypesController.PostPaymentType(App.Public.DTO.v1.PaymentType)">
+            <summary>
+            Creates new payment type in the rest backend
+            </summary>
+            <param name="paymentType">Supply payment type</param>
+            <returns>New payment type</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.PaymentTypesController.DeletePaymentType(System.Guid)">
+            <summary>
+            Delete payment type in the rest backend
+            </summary>
+            <param name="id">Supply payment type id</param>
+            <returns>Nothing</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.ProductInOrderController.GetProductInOrders">
+            <summary>
+            Gets all productInOrder from the rest backend
+            </summary>
+            <returns>All productInOrder </returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.ProductInOrderController.GetProductInOrder(System.Guid)">
+            <summary>
+            Get product in order by id from the rest backend
+            </summary>
+            <param name="id">Supply product in order id</param>
+            <returns>Product in order by id</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.ProductInOrderController.PutProductInOrder(System.Guid,App.Public.DTO.v1.ProductInOrder)">
+            <summary>
+            Insert new data to productInOrder by id, edit productInOrder in the rest backend
+            </summary>
+            <param name="id">Supply productInOrder id</param>
+            <param name="productInOrder">Supply productInOrder</param>
+            <returns>Updated productInOrder by id</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.ProductInOrderController.PostProductInOrder(App.Public.DTO.v1.ProductInOrder)">
+            <summary>
+            Creates new productInOrder in the rest backend
+            </summary>
+            <param name="productInOrder">Supply productInOrder</param>
+            <returns>New productInOrder</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.ProductInOrderController.DeleteProductInOrder(System.Guid)">
+            <summary>
+            Delete productInOrder by id in the rest backend
+            </summary>
+            <param name="id">Supply productInOrder id</param>
+            <returns>Nothing</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.ProductsController.GetProducts">
+            <summary>
+            Gets all products from the rest backend
+            </summary>
+            <returns>All products</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.ProductsController.GetProduct(System.Guid)">
+            <summary>
+            Get product by id from the rest backend
+            </summary>
+            <param name="id">Supply product id</param>
+            <returns>Product by id</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.ProductsController.PutProduct(System.Guid,App.Public.DTO.v1.Product)">
+            <summary>
+            Insert new data to product by id, edit product in the rest backend
+            </summary>
+            <param name="id">Supply product id</param>
+            <param name="product">Supply product</param>
+            <returns>Updated product by id</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.ProductsController.PostProduct(App.Public.DTO.v1.Product)">
+            <summary>
+            Creates new product in the rest backend
+            </summary>
+            <param name="product">Supply product</param>
+            <returns>New product</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.ProductsController.DeleteProduct(System.Guid)">
+            <summary>
+            Delete product by id in the rest backend
+            </summary>
+            <param name="id">Supply product by id</param>
+            <returns>Nothing</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.ProductTypesController.GetProductTypes">
+            <summary>
+            Gets all productTypes from the rest backend
+            </summary>
+            <returns>All productTypes</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.ProductTypesController.GetProductType(System.Guid)">
+            <summary>
+            Get productType by id from the rest backend
+            </summary>
+            <param name="id">Supply productType id</param>
+            <returns>ProductType by id</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.ProductTypesController.PutProductType(System.Guid,App.Public.DTO.v1.ProductType)">
+            <summary>
+            Insert new data to productType by id, edit productType in the rest backend
+            </summary>
+            <param name="id">Supply productType id</param>
+            <param name="productType">Supply productType</param>
+            <returns>Updated productType by id</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.ProductTypesController.PostProductType(App.Public.DTO.v1.ProductType)">
+            <summary>
+            Creates new productType in the rest backend
+            </summary>
+            <param name="productType">Supply productType</param>
+            <returns>New productType</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.ProductTypesController.DeleteProductType(System.Guid)">
+            <summary>
+            Delete productType by id from the rest backend
+            </summary>
+            <param name="id">Supply productType id</param>
+            <returns>Nothing</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.ShippingInfosController.GetShippingInfos">
+            <summary>
+            Gets all shippingInfos from the rest backend
+            </summary>
+            <returns>All shippingInfos</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.ShippingInfosController.GetShippingInfo(System.Guid)">
+            <summary>
+            Get shippingInfo by id from the rest backend
+            </summary>
+            <param name="id">Supply shippingInfo id</param>
+            <returns>ShippingInfo by id</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.ShippingInfosController.PutShippingInfo(System.Guid,App.Public.DTO.v1.ShippingInfo)">
+            <summary>
+            Insert new data to shippingInfo by id, edit shippingInfo in the rest backend
+            </summary>
+            <param name="id">Supply shippingInfo id</param>
+            <param name="shippingInfo">Supply shippingInfo</param>
+            <returns>Updated shippingInfo by id</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.ShippingInfosController.PostShippingInfo(App.Public.DTO.v1.ShippingInfo)">
+            <summary>
+            Creates new shippingInfo in the rest backend
+            </summary>
+            <param name="shippingInfo">Supply shippingInfo</param>
+            <returns>New shippingInfo</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.ShippingInfosController.DeleteShippingInfo(System.Guid)">
+            <summary>
+            Delete shippingInfo by id in the rest backend
+            </summary>
+            <param name="id">Supply shippingInfo id</param>
+            <returns>Nothing</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.ShippingTypesController.GetShippingTypes">
+            <summary>
+            Gets all shippingType from the rest backend
+            </summary>
+            <returns>All shippingTypes</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.ShippingTypesController.GetShippingType(System.Guid)">
+            <summary>
+            Get shippingType by id from the rest backend
+            </summary>
+            <param name="id">Supply shippingType id</param>
+            <returns>ShippingType by id</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.ShippingTypesController.PutShippingType(System.Guid,App.Public.DTO.v1.ShippingType)">
+            <summary>
+            Insert new data to shippingType by id, edit shippingType in the rest backend
+            </summary>
+            <param name="id">Supply shippingType id</param>
+            <param name="shippingType">Supply shippingType</param>
+            <returns>Updated ShippingType by id</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.ShippingTypesController.PostShippingType(App.Public.DTO.v1.ShippingType)">
+            <summary>
+            Create new shippingType in the rest backend
+            </summary>
+            <param name="shippingType">Supply shippingType</param>
+            <returns>New shippingType</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.ShippingTypesController.DeleteShippingType(System.Guid)">
+            <summary>
+            Delete shippingType by id in the rest backend
+            </summary>
+            <param name="id">Supply shippingType id</param>
+            <returns>Nothing</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.SpecificationsController.GetSpecifications">
+            <summary>
+            Gets all specifications from the rest backend
+            </summary>
+            <returns>All specifications</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.SpecificationsController.GetSpecification(System.Guid)">
+            <summary>
+            Get specification by id
+            </summary>
+            <param name="id">Supply specification id</param>
+            <returns>Specification by id</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.SpecificationsController.PutSpecification(System.Guid,App.Public.DTO.v1.Specification)">
+            <summary>
+            Insert new data to specification by id, edit specification in the rest backend
+            </summary>
+            <param name="id">Supply specification id</param>
+            <param name="specification">Supply specification</param>
+            <returns>Updated specification by id</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.SpecificationsController.PostSpecification(App.Public.DTO.v1.Specification)">
+            <summary>
+            Create new specification in the rest backend
+            </summary>
+            <param name="specification">Supply specification</param>
+            <returns>New specification</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.SpecificationsController.DeleteSpecification(System.Guid)">
+            <summary>
+            Delete specification by id in the rest backend
+            </summary>
+            <param name="id">Supply specification by id</param>
+            <returns>Nothing</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.SpecificationTypesController.GetSpecificationTypes">
+            <summary>
+            Get all specificationTypes from the rest backend
+            </summary>
+            <returns>All specificationTypes</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.SpecificationTypesController.GetSpecificationType(System.Guid)">
+            <summary>
+            Get specificationType by id from the rest backend
+            </summary>
+            <param name="id">Supply specificationType id</param>
+            <returns>SpecificationType by id</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.SpecificationTypesController.PutSpecificationType(System.Guid,App.Public.DTO.v1.SpecificationType)">
+            <summary>
+            Insert new data to specificationType by id, edit specificationType in the rest backend
+            </summary>
+            <param name="id">Supply specificationType id</param>
+            <param name="specificationType">Supply specificationType</param>
+            <returns>Updated specificationType by id</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.SpecificationTypesController.PostSpecificationType(App.Public.DTO.v1.SpecificationType)">
+            <summary>
+            Create new specificationType in the rest backend
+            </summary>
+            <param name="specificationType">Supply specificationType</param>
+            <returns>New specificationType</returns>
+        </member>
+        <member name="M:WebApp.ApiControllers.SpecificationTypesController.DeleteSpecificationType(System.Guid)">
+            <summary>
+            Delete specificationType by id in the rest backend
+            </summary>
+            <param name="id">Supply specificationType id</param>
+            <returns>Nothing</returns>
+        </member>
+    </members>
+</doc>

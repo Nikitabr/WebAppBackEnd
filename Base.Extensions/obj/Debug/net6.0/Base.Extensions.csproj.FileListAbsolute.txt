@@ -1,0 +1,12 @@
+C:\Users\nikit\RiderProjects\icd0021-21-22-s\Base.Extensions\bin\Debug\net6.0\Base.Extensions.deps.json
+C:\Users\nikit\RiderProjects\icd0021-21-22-s\Base.Extensions\bin\Debug\net6.0\Base.Extensions.dll
+C:\Users\nikit\RiderProjects\icd0021-21-22-s\Base.Extensions\bin\Debug\net6.0\Base.Extensions.pdb
+C:\Users\nikit\RiderProjects\icd0021-21-22-s\Base.Extensions\obj\Debug\net6.0\Base.Extensions.csproj.AssemblyReference.cache
+C:\Users\nikit\RiderProjects\icd0021-21-22-s\Base.Extensions\obj\Debug\net6.0\Base.Extensions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikit\RiderProjects\icd0021-21-22-s\Base.Extensions\obj\Debug\net6.0\Base.Extensions.AssemblyInfoInputs.cache
+C:\Users\nikit\RiderProjects\icd0021-21-22-s\Base.Extensions\obj\Debug\net6.0\Base.Extensions.AssemblyInfo.cs
+C:\Users\nikit\RiderProjects\icd0021-21-22-s\Base.Extensions\obj\Debug\net6.0\Base.Extensions.csproj.CoreCompileInputs.cache
+C:\Users\nikit\RiderProjects\icd0021-21-22-s\Base.Extensions\obj\Debug\net6.0\Base.Extensions.dll
+C:\Users\nikit\RiderProjects\icd0021-21-22-s\Base.Extensions\obj\Debug\net6.0\refint\Base.Extensions.dll
+C:\Users\nikit\RiderProjects\icd0021-21-22-s\Base.Extensions\obj\Debug\net6.0\Base.Extensions.pdb
+C:\Users\nikit\RiderProjects\icd0021-21-22-s\Base.Extensions\obj\Debug\net6.0\ref\Base.Extensions.dll

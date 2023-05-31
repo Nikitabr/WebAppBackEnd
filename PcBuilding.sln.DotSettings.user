@@ -1,0 +1,46 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
+  &lt;Assembly Path="C:\Users\nikit\RiderProjects\icd0021-21-22-s\App.DAL.DTO\bin\Debug\net6.0\App.DAL.DTO.dll" /&gt;&#xD;
+&lt;/AssemblyExplorer&gt;</s:String>
+	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">C:\Users\nikit\AppData\Local\JetBrains\Rider2022.1\resharper-host\temp\Rider\vAny\CoverageData\_PcBuilding.343637033\Snapshot\snapshot.utdcvr</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=92dcf16c_002D010c_002D4cde_002Da152_002Dca6c2a4233fd/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="1" IsActive="True" Name="Test_Products_Add" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::3023CAA1-F775-4572-BB81-A847618FC6E7::net6.0::Tests.WebApp.UnitTests.UnitTestProductController.Test_Products_Add&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::3023CAA1-F775-4572-BB81-A847618FC6E7::net6.0::Tests.WebApp.UnitTests.UnitTestProductController.Test_Products_Update&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::3023CAA1-F775-4572-BB81-A847618FC6E7::net6.0::Tests.WebApp.UnitTests.UnitTestProductController.Test_Products_RemoveEntity&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::3023CAA1-F775-4572-BB81-A847618FC6E7::net6.0::Tests.WebApp.UnitTests.UnitTestProductController.Test_Products_RemoveKey&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::3023CAA1-F775-4572-BB81-A847618FC6E7::net6.0::Tests.WebApp.UnitTests.UnitTestProductController.Test_Products_RemoveAsync&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::3023CAA1-F775-4572-BB81-A847618FC6E7::net6.0::Tests.WebApp.UnitTests.UnitTestProductController.Test_Products_GetAllAsync&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::3023CAA1-F775-4572-BB81-A847618FC6E7::net6.0::Tests.WebApp.UnitTests.UnitTestProductController.Test_Products_GetAll&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::3023CAA1-F775-4572-BB81-A847618FC6E7::net6.0::Tests.WebApp.UnitTests.UnitTestProductController.Test_Products_FirstOrDefaultAsync&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::3023CAA1-F775-4572-BB81-A847618FC6E7::net6.0::Tests.WebApp.UnitTests.UnitTestProductController.Test_Products_FirstOrDefault&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::3023CAA1-F775-4572-BB81-A847618FC6E7::net6.0::Tests.WebApp.UnitTests.UnitTestProductController.Test_Products_GetProductName&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::3023CAA1-F775-4572-BB81-A847618FC6E7::net6.0::Tests.WebApp.UnitTests.UnitTestProductController.Test_Products_Exists&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::3023CAA1-F775-4572-BB81-A847618FC6E7::net6.0::Tests.WebApp.UnitTests.UnitTestProductController.Test_Products_ExistsAsync&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::3023CAA1-F775-4572-BB81-A847618FC6E7::net6.0::Tests.WebApp.IntegrationTestsApi.HappyFlowIntegrationTests.StartApp&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::3023CAA1-F775-4572-BB81-A847618FC6E7::net6.0::Tests.WebApp.IntegrationTestsApi.HappyFlowIntegrationTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=App_002FApp_002EResources_002FApp_002EDomain_002FCommon/@EntryIndexedValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=App_002FApp_002EResources_002FApp_002EDomain_002FCountry/@EntryIndexedValue">True</s:Boolean>
+	
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=App_002FApp_002EResources_002FApp_002EDomain_002FInvoice/@EntryIndexedValue">True</s:Boolean>
+	
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=App_002FApp_002EResources_002FApp_002EDomain_002FPc/@EntryIndexedValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=App_002FApp_002EResources_002FApp_002EDomain_002FPoductType/@EntryIndexedValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=App_002FApp_002EResources_002FApp_002EDomain_002FProduct/@EntryIndexedValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=App_002FApp_002EResources_002FApp_002EDomain_002FServiceType/@EntryIndexedValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=App_002FApp_002EResources_002FApp_002EDomain_002FShippingInfo/@EntryIndexedValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=App_002FApp_002EResources_002FApp_002EDomain_002FShippingType/@EntryIndexedValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=App_002FApp_002EResources_002FApp_002EDomain_002FSpecificationType/@EntryIndexedValue">True</s:Boolean>
+	
+	
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/CheckedGroups/=Base_002FBase_002EResources_002FCommon/@EntryIndexedValue">True</s:Boolean>
+	
+	<s:Boolean x:Key="/Default/ResxEditorPersonal/Initialized/@EntryValue">True</s:Boolean>
+	
+	
+	
+	
+	
+	</wpf:ResourceDictionary>

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "YAt1JUNxiUzlA0RskeWrf9okYm5XX+0tFUP4hDI4OOvAnrVoTfD0K0Y039C8Xl1mqXCoaNaJGtFAek+nitw+fg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nikit\\RiderProjects\\icd0021-21-22-s\\Base.DAL\\Base.DAL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nikit\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\nikit\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
